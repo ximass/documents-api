@@ -33,6 +33,7 @@
         <h1>Certificado de Participação</h1>
         <p>Certificamos que <span class="bold">{{ $user->name }}</span></p>
         <p>Participou do evento <span class="bold">{{ $event->title }}</span></p>
+        <p>Código do Certificado: <span class="bold">{{ $certificateCode }}</span></p>
         <div class="signature">
             <p>______________________________</p>
             <p>Organização do Evento</p>
